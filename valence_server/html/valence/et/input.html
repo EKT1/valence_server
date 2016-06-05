@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EKI emotsioonidetektor</title>
+<link rel="stylesheet" type="text/css" href="/style/base.css">
+<style>
+.wide {
+	max-width:720px;
+}
+</style></head>
+<body id="body">
+<div id="header" class="narrow"><a id="logo" href="http://portaal.eki.ee/"></a></div>
+<noscript><div style="font-weight:bold;color:red; padding: 50px 50px;">Please enable JavaScript.</div></noscript>
+<div id="content" class="wide"><h5>Emotsioonidetektor <span style=" font-size:80%;color:gray">v1.0</span>
+<a style="padding-left:2em"
+   href="https://chrome.google.com/webstore/detail/valence-detector/ibpepiiaaefbjlocbifnjakbiaeieegn"
+   title="Installeeri Google Chrome&#39;i laiendusena"><img
+        src="/style/crx.jpg" title="Installeeri Google Chrome&#39;i laiendusena"></a>
+</h5>
+<div>Emotsioonidetektor on Eesti Keele Instituudis riikliku programmi "Eesti keeletehnoloogia 2011-2017"
+projekti "Kõne ja teksti emotsionaalsuse statistilised mudelid" raames loodud vahend kirjaliku teksti lõikude
+positiivsuse, negatiivsuse ja neutraalsuse tuvastamiseks.</div>
+<div id="form" style="margin-top:2em">
+<form name="frm" method="POST" action="/valence/color" accept-charset="UTF-8">
+<div><label for="text"><b>Kopeeri tekst siia:</b></label><textarea id="text" name="text" cols="82" rows="16"></textarea> </div>
+<div class="buttons">
+<a class="submit" href="javascript: document.frm.submit()">Näita</a>
+</div>
+<div class="formline"><input id="lexiconbased" type="checkbox" name="lexiconbased" value="1">&nbsp;&nbsp;Kasuta leksikonipõhist hinnangut</div>
+</form>
+</div>
+<script type="text/javascript">document.frm.text.focus();</script>
+
+</div>
+<div id="footer" class="narrow"></div>
+<div id="copyright" class="narrow">© Eesti Keele Instituut</div>
+
+
+</body></html>

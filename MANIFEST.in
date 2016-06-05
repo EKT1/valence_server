@@ -1,0 +1,8 @@
+include README.rst
+include LICENSE
+include valence_server/babel.cfg
+include valence_server/babel.rst
+recursive-include valence_server/html *
+recursive-include valence_server/i18n *
+recursive-include valence_server/style *
+recursive-include valence_server/views *

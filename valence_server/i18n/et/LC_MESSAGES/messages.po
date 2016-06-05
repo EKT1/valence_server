@@ -1,0 +1,223 @@
+# Estonian translations for ekorpus.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the ekorpus project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ekorpus 0.0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-06-02 23:44+0300\n"
+"PO-Revision-Date: 2014-01-08 00:17+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: et\n"
+"Language-Team: et <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.2.0\n"
+
+#: valence/valencecolor.py:191 valence/valencecolor.py:196
+#: valence/valencecolor.py:199
+msgid "mostly mixed"
+msgstr "vastuoluline"
+
+#: valence/valencecolor.py:193
+msgid "only neutral"
+msgstr "neutraalne"
+
+#: valence/valencecolor.py:193
+msgid "only positive"
+msgstr "positiivne"
+
+#: valence/valencecolor.py:193
+msgid "only negative"
+msgstr "negatiivne"
+
+#: valence/valencecolor.py:193
+msgid "only mixed"
+msgstr "vastuoluline"
+
+#: valence/valencecolor.py:196 valence/valencecolor.py:199
+msgid "mostly neutral"
+msgstr "enamjaolt neutraalne"
+
+#: valence/valencecolor.py:196 valence/valencecolor.py:199
+msgid "mostly positive"
+msgstr "enamjaolt positiivne"
+
+#: valence/valencecolor.py:196 valence/valencecolor.py:199
+msgid "mostly negative"
+msgstr "enamjaolt negatiivne"
+
+#: valence/valencecolor.py:221
+msgid "positive ="
+msgstr "positiivne ="
+
+#: valence/valencecolor.py:222
+msgid "negative ="
+msgstr "negatiivne ="
+
+#: valence/valencecolor.py:223
+msgid "neutral ="
+msgstr "neutraalne ="
+
+#: valence/valencecolor.py:227 valence/valencecolor.py:274
+msgid "words:"
+msgstr "sõnu:"
+
+#: valence/valencecolor.py:227
+msgid "Probability"
+msgstr "Tõenäosus"
+
+#: valence/valencecolor.py:267
+msgid "positive:"
+msgstr "positiivseid:"
+
+#: valence/valencecolor.py:268
+msgid "negative:"
+msgstr "negatiivseid:"
+
+#: valence/valencecolor.py:269
+msgid "extreme:"
+msgstr "ekstreemseid"
+
+#: valence/valencecolor.py:290
+msgid "Valence"
+msgstr "Hinnang"
+
+#: views/article.mak:10
+msgid "Article"
+msgstr "Artikkel"
+
+#: views/articles.mak:21
+msgid "Articles"
+msgstr "Artiklid"
+
+#: views/colored.mak:2 views/valence.mak:2
+msgid "Emotion detector"
+msgstr "Emotsioonidetektor"
+
+#: views/colored.mak:4
+msgid "The lexicon based rating of the valence is on the left side"
+msgstr "Vasakul on lõigu leksikonipõhine hinnang"
+
+#: views/colored.mak:7
+msgid "Keywords are"
+msgstr "Võtmesõnad on"
+
+#: views/colored.mak:8 views/colored.mak:15
+msgid "positive"
+msgstr "positiivsed"
+
+#: views/colored.mak:9 views/colored.mak:16
+msgid "negative"
+msgstr "negatiivsed"
+
+#: views/colored.mak:10 views/colored.mak:19
+msgid "or"
+msgstr "või"
+
+#: views/colored.mak:11 views/colored.mak:20
+msgid "extreme"
+msgstr "ekstreemsed"
+
+#: views/colored.mak:14
+msgid "Paragraphs are"
+msgstr "Lõigud on"
+
+#: views/colored.mak:17
+msgid "ambivalent"
+msgstr "vastuolulised"
+
+#: views/colored.mak:18
+msgid "neutral2"
+msgstr "neutraalsed"
+
+#: views/colored.mak:22
+#, fuzzy
+msgid "The statistical rating of the valence is on the right side"
+msgstr "Paremal on lõigu statistiline hinnang"
+
+#: views/colored.mak:103
+msgid "Back"
+msgstr "Tagasi"
+
+#: views/layout.mak:16
+msgid "Please enable JavaScript."
+msgstr ""
+
+#: views/paragraphs.mak:1 views/paragraphs.mak:4 views/paragraphs.mak:6
+#: views/valence.mak:31
+msgid "Valence Corpus"
+msgstr ""
+
+#: views/paragraphsquery.mak:5
+msgid "Category"
+msgstr "Rubriik"
+
+#: views/paragraphsquery.mak:10 views/paragraphsquery.mak:20
+msgid "all"
+msgstr "kõik"
+
+#: views/paragraphsquery.mak:15
+msgid "Emotion"
+msgstr "Emotsioon"
+
+#: views/paragraphsquery.mak:25 views/valence.mak:19
+msgid "Show"
+msgstr "Näita"
+
+#: views/paragraphsquery.mak:26
+msgid "Reset"
+msgstr ""
+
+#: views/paragraphsquery.mak:30
+msgid "List all articles"
+msgstr "Näita kõiki artikleid"
+
+#: views/paragraphsquery.mak:31
+msgid "Export all as CSV"
+msgstr "Lae alla korpus (CSV)"
+
+#: views/paragraphsquery.mak:32
+msgid "Query"
+msgstr "Valik"
+
+#: views/paragraphsresult.mak:24
+msgid "Paragraphs"
+msgstr "Lõigud"
+
+#: views/valence.mak:3
+msgid "Install the Chrome extension"
+msgstr "Installeeri Google Chrome'i laiendusena"
+
+#: views/valence.mak:6
+msgid ""
+"The Emotion Detector has been created at the Institute of the Estonian "
+"Language\n"
+"under the project 'Statistical Models of the Emotionality of Speech and "
+"Written\n"
+"Text' that was financed by the National Programm for Estonian Language\n"
+"Technology 2011-2017. The Emotion Detector allows to identify the "
+"positivity,\n"
+"negativity and neutrality in paragraphs of written text."
+msgstr ""
+"Emotsioonidetektor on Eesti Keele Instituudis riikliku programmi \"Eesti "
+"keeletehnoloogia 2011-2017\"\n"
+"projekti \"Kõne ja teksti emotsionaalsuse statistilised mudelid\" raames "
+"loodud vahend kirjaliku teksti lõikude positiivsuse, negatiivsuse ja "
+"neutraalsuse tuvastamiseks."
+
+#: views/valence.mak:15
+msgid "Paste your text here"
+msgstr "Kopeeri tekst siia"
+
+#: views/valence.mak:23 views/valence.mak:24
+msgid "Use lexicon based estimate"
+msgstr "Kasuta leksikonipõhist hinnangut"
+
+#~ msgid "Home"
+#~ msgstr "Algus"
+
