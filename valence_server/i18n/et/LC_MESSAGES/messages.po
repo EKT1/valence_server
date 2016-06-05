@@ -207,7 +207,7 @@ msgstr ""
 "Emotsioonidetektor on Eesti Keele Instituudis riikliku programmi \"Eesti "
 "keeletehnoloogia 2011-2017\"\n"
 "projekti \"Kõne ja teksti emotsionaalsuse statistilised mudelid\" raames "
-"loodud vahend kirjaliku teksti lõikude positiivsuse, negatiivsuse ja "
+"loodud vahend kirjaliku teksti ortograafiliste lõikude positiivsuse, negatiivsuse ja "
 "neutraalsuse tuvastamiseks."
 
 #: views/valence.mak:15

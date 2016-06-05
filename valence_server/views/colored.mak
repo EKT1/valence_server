@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 <h5>${_('Emotion detector')} <span style="font-size:80%;color:gray">v1.0</span></h5>
-${_('Paragraphs are')} 
-<span class="para positiveP" style="padding:0px; margin-left:0px">${_('positive')},</span>
-<span class="para negativeP" style="padding:0px; margin-left:0px">${_('negative')},</span>
-<span class="para mixedP" style="padding:0px; margin-left:0px">${_('ambivalent')},</span>  
-<span class="para neutralP" style="padding:0px; margin-left:0px">${_('neutral2')}</span> 
-${_('or')}
-<span class="para extremeP" style="padding:0px; margin-left:0px">${_('extreme')}.</span>
-</p>
 % if c.lexiconbased:
+<p>
+${_('Paragraphs are')}
+<span class="para positiveP" style="padding:0px; margin-left:0px">${_('positive')}</span>,
+<span class="para negativeP" style="padding:0px; margin-left:0px">${_('negative')}</span>,
+<span class="para neutralP" style="padding:0px; margin-left:0px">${_('neutral2')}</span>
+${_('or')}
+<span class="para mixedP" style="padding:0px; margin-left:0px">${_('ambivalent')}</span>.
+</p>
 <p>
 ${_('Keywords are')}
 <span class="word positiveW">${_('positive')}</span>,
@@ -16,9 +16,15 @@ ${_('Keywords are')}
 ${_('or')}
 <span class="word extremeW">${_('extreme')}</span>.
 </p>
-<p>
 <p>${_('The lexicon based rating of the valence is on the left side')}.</p>
 % else:
+<p>
+${_('Paragraphs are')}
+<span class="para positiveB" style="padding:0px; margin-left:0px">${_('positive')},</span>
+<span class="para negativeB" style="padding:0px; margin-left:0px">${_('negative')}</span>
+${_('or')}
+<span class="para neutralB" style="padding:0px; margin-left:0px">${_('neutral2')}</span>
+</p>
 <p><i>${_('The statistical rating of the valence is on the right side')}.</i></p>
 % endif
 
