@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-<h5>${_('Emotion detector')} <span style="font-size:80%;color:gray">v1.1</span></h5>
 <div>\
 ${_("""The Emotion Detector has been created at the Institute of the Estonian Language
 under the project 'Statistical Models of the Emotionality of Speech and Written

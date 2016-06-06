@@ -1,13 +1,13 @@
-from bottle import route, post, get, request, response, run, template, static_file, default_app
-from bottle import mako_view as view, mako_template as template, ResourceManager, Bottle
-from valence.valencecolor import marktext
-import pkg_resources
 
+#import pkg_resources
+#i18n = pkg_resources.resource_filename('valence_server','i18n')
 import gettext
-#et = gettext.translation('messages', localedir=pkg_resources.resource_filename('valence_server','i18n'), languages=['et'])
 et = gettext.translation('messages', 'i18n', languages=['et'])
 et.install()
 
+from bottle import route, post, get, request, response, run, template, static_file, default_app
+from bottle import mako_view as view, mako_template as template, ResourceManager, Bottle
+from valence.valencecolor import marktext
 
 @get("/")
 @get('/valence')

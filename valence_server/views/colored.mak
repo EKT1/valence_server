@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-<h5>${_('Emotion detector')} <span style="font-size:80%;color:gray">v1.0</span></h5>
 % if c.lexiconbased:
 <p>
 ${_('Paragraphs are')}

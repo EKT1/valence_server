@@ -11,6 +11,7 @@ ${self.styles()}\
 <div id="header" class="narrow">
 <a id="logo" href="http://portaal.eki.ee"></a>
 <%widgets:navbar toggle="">${self.localmenu()}</%widgets:navbar>
+<h5>${_('Emotion detector')} <span style="font-size:80%;color:gray">v1.1</span></h5>
 </div>
 <noscript>
 <div style="font-weight:bold;color:red; padding: 50px 50px;">${_('Please enable JavaScript.')}</div>
