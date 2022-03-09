@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ekorpus 0.0.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-06-02 23:44+0300\n"
+"POT-Creation-Date: 2022-03-09 08:12+0200\n"
 "PO-Revision-Date: 2014-01-08 00:17+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: et\n"
@@ -16,74 +16,75 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.2.0\n"
+"Generated-By: Babel 2.9.1\n"
 
-#: valence/valencecolor.py:191 valence/valencecolor.py:196
-#: valence/valencecolor.py:199
+#: valencecolor.py:197 valencecolor.py:202 valencecolor.py:205
 msgid "mostly mixed"
 msgstr "vastuoluline"
 
-#: valence/valencecolor.py:193
+#: valencecolor.py:199
 msgid "only neutral"
 msgstr "neutraalne"
 
-#: valence/valencecolor.py:193
+#: valencecolor.py:199
 msgid "only positive"
 msgstr "positiivne"
 
-#: valence/valencecolor.py:193
+#: valencecolor.py:199
 msgid "only negative"
 msgstr "negatiivne"
 
-#: valence/valencecolor.py:193
+#: valencecolor.py:199
+#, fuzzy
 msgid "only mixed"
 msgstr "vastuoluline"
 
-#: valence/valencecolor.py:196 valence/valencecolor.py:199
+# msgid "only mixed"
+#: valencecolor.py:202 valencecolor.py:205
 msgid "mostly neutral"
 msgstr "enamjaolt neutraalne"
 
-#: valence/valencecolor.py:196 valence/valencecolor.py:199
+#: valencecolor.py:202 valencecolor.py:205
 msgid "mostly positive"
 msgstr "enamjaolt positiivne"
 
-#: valence/valencecolor.py:196 valence/valencecolor.py:199
+#: valencecolor.py:202 valencecolor.py:205
 msgid "mostly negative"
 msgstr "enamjaolt negatiivne"
 
-#: valence/valencecolor.py:221
+#: valencecolor.py:227
 msgid "positive ="
 msgstr "positiivne ="
 
-#: valence/valencecolor.py:222
+#: valencecolor.py:228
 msgid "negative ="
 msgstr "negatiivne ="
 
-#: valence/valencecolor.py:223
+#: valencecolor.py:229
 msgid "neutral ="
 msgstr "neutraalne ="
 
-#: valence/valencecolor.py:227 valence/valencecolor.py:274
+#: valencecolor.py:233 valencecolor.py:280
 msgid "words:"
 msgstr "sõnu:"
 
-#: valence/valencecolor.py:227
+#: valencecolor.py:233
 msgid "Probability"
 msgstr "Tõenäosus"
 
-#: valence/valencecolor.py:267
+#: valencecolor.py:273
 msgid "positive:"
 msgstr "positiivseid:"
 
-#: valence/valencecolor.py:268
+#: valencecolor.py:274
 msgid "negative:"
 msgstr "negatiivseid:"
 
-#: valence/valencecolor.py:269
+#: valencecolor.py:275
 msgid "extreme:"
 msgstr "ekstreemseid"
 
-#: valence/valencecolor.py:290
+#: valencecolor.py:296
 msgid "Valence"
 msgstr "Hinnang"
 
@@ -95,61 +96,63 @@ msgstr "Artikkel"
 msgid "Articles"
 msgstr "Artiklid"
 
-#: views/colored.mak:2 views/valence.mak:2
-msgid "Emotion detector"
-msgstr "Emotsioonidetektor"
+#: views/colored.mak:4 views/colored.mak:21
+msgid "Paragraphs are"
+msgstr "Lõikude mõju hinnang on"
 
-#: views/colored.mak:4
-msgid "The lexicon based rating of the valence is on the left side"
-msgstr "Vasakul on lõigu leksikonipõhine hinnang"
-
-#: views/colored.mak:7
-msgid "Keywords are"
-msgstr "Võtmesõnad on"
-
-#: views/colored.mak:8 views/colored.mak:15
+#: views/colored.mak:5 views/colored.mak:13 views/colored.mak:22
+#: views/valence.mak:5
 msgid "positive"
-msgstr "positiivsed"
+msgstr "positiivne"
 
-#: views/colored.mak:9 views/colored.mak:16
+#: views/colored.mak:6 views/colored.mak:14 views/colored.mak:23
+#: views/valence.mak:6
 msgid "negative"
-msgstr "negatiivsed"
+msgstr "negatiivne"
 
-#: views/colored.mak:10 views/colored.mak:19
+#: views/colored.mak:7 views/colored.mak:25
+msgid "neutral2"
+msgstr "neutraalne"
+
+#: views/colored.mak:8 views/colored.mak:15 views/colored.mak:24
 msgid "or"
 msgstr "või"
 
-#: views/colored.mak:11 views/colored.mak:20
-msgid "extreme"
-msgstr "ekstreemsed"
-
-#: views/colored.mak:14
-msgid "Paragraphs are"
-msgstr "Lõigud on"
-
-#: views/colored.mak:17
+#: views/colored.mak:9
 msgid "ambivalent"
-msgstr "vastuolulised"
+msgstr "vastuoluline"
+
+#: views/colored.mak:12
+msgid "Keywords are"
+msgstr "Võtmesõna hinnang on"
+
+#: views/colored.mak:16
+msgid "extreme"
+msgstr "ekstreemne"
 
 #: views/colored.mak:18
-msgid "neutral2"
-msgstr "neutraalsed"
+msgid "The lexicon based rating of the valence is on the left side"
+msgstr "Vasakul on lõigu leksikonipõhine hinnang"
 
-#: views/colored.mak:22
+#: views/colored.mak:27
 #, fuzzy
 msgid "The statistical rating of the valence is on the right side"
-msgstr "Paremal on lõigu statistiline hinnang"
+msgstr "Lõigu statistiline hinnang on paremal"
 
-#: views/colored.mak:103
+#: views/colored.mak:119
 msgid "Back"
 msgstr "Tagasi"
 
-#: views/layout.mak:16
+#: views/layout.mak:15
+msgid "Emotion detector"
+msgstr "Emotsioonidetektor"
+
+#: views/layout.mak:18
 msgid "Please enable JavaScript."
 msgstr ""
 
 #: views/paragraphs.mak:1 views/paragraphs.mak:4 views/paragraphs.mak:6
-#: views/valence.mak:31
+#: views/valence.mak:49
 msgid "Valence Corpus"
 msgstr ""
 
@@ -165,7 +168,7 @@ msgstr "kõik"
 msgid "Emotion"
 msgstr "Emotsioon"
 
-#: views/paragraphsquery.mak:25 views/valence.mak:19
+#: views/paragraphsquery.mak:25 views/valence.mak:23
 msgid "Show"
 msgstr "Näita"
 
@@ -190,34 +193,80 @@ msgid "Paragraphs"
 msgstr "Lõigud"
 
 #: views/valence.mak:3
-msgid "Install the Chrome extension"
-msgstr "Installeeri Google Chrome'i laiendusena"
+msgid "The emotion detector predicts what the text effect on the reader will be"
+msgstr "Emotsioonidetektor ennustab, milline on teksti mõju lugejale"
 
-#: views/valence.mak:6
-msgid ""
-"The Emotion Detector has been created at the Institute of the Estonian "
-"Language\n"
-"under the project 'Statistical Models of the Emotionality of Speech and "
-"Written\n"
-"Text' that was financed by the National Programm for Estonian Language\n"
-"Technology 2011-2017. The Emotion Detector allows to identify the "
-"positivity,\n"
-"negativity and neutrality in paragraphs of written text."
-msgstr ""
-"Emotsioonidetektor on Eesti Keele Instituudis riikliku programmi \"Eesti "
-"keeletehnoloogia 2011-2017\"\n"
-"projekti \"Kõne ja teksti emotsionaalsuse statistilised mudelid\" raames "
-"loodud vahend kirjaliku teksti ortograafiliste lõikude positiivsuse, negatiivsuse ja "
-"neutraalsuse tuvastamiseks."
+#: views/valence.mak:7
+#, fuzzy
+msgid "neutral"
+msgstr "neutraalne"
 
-#: views/valence.mak:15
+#: views/valence.mak:13
 msgid "Paste your text here"
 msgstr "Kopeeri tekst siia"
 
-#: views/valence.mak:23 views/valence.mak:24
+#: views/valence.mak:17
+msgid "The text must be divided into paragraphs."
+msgstr "Tekst peab olema liigendatud lõikudeks."
+
+#: views/valence.mak:18
+msgid "A paragraph is formed of at least two substantially related sentences."
+msgstr "Lõigu moodustavad vähemalt kaks sisuliselt seotud lauset."
+
+#: views/valence.mak:20
+msgid "NB! The detector does not assign the effect of solitary words."
+msgstr "NB! Detektor ei määra üksiksõnade mõju."
+
+#: views/valence.mak:27
 msgid "Use lexicon based estimate"
 msgstr "Kasuta leksikonipõhist hinnangut"
 
+#: views/valence.mak:32
+msgid ""
+"The Emotion Detector has been created at the Institute of the Estonian "
+"Language under the project\n"
+"\"Statistical Models of the Emotionality of Speech and Written Text\" "
+"that was financed\n"
+"by the National Programm for Estonian Language Technology 2011-2017.\n"
+"The Emotion Detector allows to identify the positivity, negativity and "
+"neutrality in paragraphs of written text"
+msgstr ""
+"Emotsioonidetektor on Eesti Keele Instituudis riikliku programmi \"Eesti "
+"keeletehnoloogia 2011-2017\" projekti \"Kõne ja teksti emotsionaalsuse "
+"statistilised mudelid\" raames loodud vahend kirjaliku teksti "
+"ortograafiliste lõikude positiivsuse, negatiivsuse ja neutraalsuse "
+"tuvastamiseks"
+
+#: views/valence.mak:40
+msgid "Cite"
+msgstr "Viide"
+
 #~ msgid "Home"
 #~ msgstr "Algus"
+
+#~ msgid "Install the Chrome extension"
+#~ msgstr "Installeeri Google Chrome'i laiendusena"
+
+#~ msgid ""
+#~ "The Emotion Detector has been created"
+#~ " at the Institute of the Estonian "
+#~ "Language\n"
+#~ "under the project 'Statistical Models of"
+#~ " the Emotionality of Speech and "
+#~ "Written\n"
+#~ "Text' that was financed by the "
+#~ "National Programm for Estonian Language\n"
+#~ ""
+#~ "Technology 2011-2017. The Emotion Detector "
+#~ "allows to identify the positivity,\n"
+#~ "negativity and neutrality in paragraphs of written text."
+#~ msgstr ""
+#~ "Emotsioonidetektor on Eesti Keele Instituudis"
+#~ " riikliku programmi \"Eesti keeletehnoloogia "
+#~ "2011-2017\"\n"
+#~ "projekti \"Kõne ja teksti emotsionaalsuse "
+#~ "statistilised mudelid\" raames loodud vahend"
+#~ " kirjaliku teksti ortograafiliste lõikude "
+#~ "positiivsuse, negatiivsuse ja neutraalsuse "
+#~ "tuvastamiseks."
 

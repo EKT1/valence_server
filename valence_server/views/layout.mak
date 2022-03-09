@@ -3,22 +3,22 @@
 <html>
 <head>
 <title>${self.title()}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css" href="/style/base.css">
+<link rel="stylesheet" type="text/css" href="/valence/style/base.css">
 ${self.styles()}\
 </head>
 <body id="body">
-<div id="header" class="narrow">
+<div id="header">
 <a id="logo" href="http://portaal.eki.ee"></a>
 <%widgets:navbar toggle="">${self.localmenu()}</%widgets:navbar>
-<h5>${_('Emotion detector')} <span style="font-size:80%;color:gray">v1.1</span></h5>
+<h5>${_('Emotion detector')}</h5>
 </div>
 <noscript>
 <div style="font-weight:bold;color:red; padding: 50px 50px;">${_('Please enable JavaScript.')}</div>
 </noscript>
 <div id="content" class="wide">${next.body()}</div>
 <div id="footer" class="narrow">${self.footer()}</div>
-<div id="copyright" class="narrow">&copy; Eesti Keele Instituut</div>
 </body>
 </html>
 <%def name="title()">EKI eKorpus</%def>\

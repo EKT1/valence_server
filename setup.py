@@ -1,12 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='valence_server',
-    version='1.1',
+    version='1.2',
     description='A HTTP server for package for Estonian language text valence(positive/negative) detection',
     packages=['valence_server',],
     include_package_data=True,
-    install_requires=['valence>=1.1','mako>=1.0.4', 'bottle>=0.12.9'],
+    install_requires=['valence>=1.2','mako>=1.0.4', 'bottle>=0.12.9', 'waitress>=0.9.0'],
     url='www.eki.ee',
     author='Institute of the Estonian Language',
     author_email='ekorpus@eki.ee',
@@ -21,4 +21,3 @@ setup(
     license='GPLv3',
     zip_safe=False
 )
-

@@ -22,7 +22,7 @@ ${_('Paragraphs are')}
 <span class="para positiveB" style="padding:0px; margin-left:0px">${_('positive')},</span>
 <span class="para negativeB" style="padding:0px; margin-left:0px">${_('negative')}</span>
 ${_('or')}
-<span class="para neutralB" style="padding:0px; margin-left:0px">${_('neutral2')}</span>
+<span class="para neutralB" style="padding:0px; margin-left:0px">${_('neutral2')}.</span>
 </p>
 <p><i>${_('The statistical rating of the valence is on the right side')}.</i></p>
 % endif

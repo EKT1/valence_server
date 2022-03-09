@@ -5,6 +5,9 @@ babel.cfg::
   input_encoding = utf-8
 
 commands::
+
+  # copy or link valence/valence/valencecolor.py here
+
   pybabel extract -F babel.cfg -o i18n/messages.pot .
   pybabel update -d i18n -l et -i i18n/messages.pot
   pybabel compile -d i18n -f

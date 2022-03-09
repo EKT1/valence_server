@@ -26,13 +26,13 @@ def color():
         return template("colored.mak", c=p)
 
 
-@route('/html/<filepath:path>')
+@route('/valence/html/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root='html')
 
 
-@route('/style/<filepath:path>')
+@route('/valence/style/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root='style')
 
-run(host="0.0.0.0", port=80)
+run(host="0.0.0.0", port=80, server="waitress", debug=True)
