@@ -5,9 +5,13 @@ import gettext
 et = gettext.translation('messages', 'i18n', languages=['et'])
 et.install()
 
-from bottle import route, post, get, request, response, run, template, static_file, default_app
+from bottle import hook, route, post, get, request, response, run, template, static_file, default_app
 from bottle import mako_view as view, mako_template as template, ResourceManager, Bottle
 from valence.valencecolor import marktext
+
+@hook('before_request')
+def strip_path():
+    request.environ['PATH_INFO'] = request.environ['PATH_INFO'].rstrip('/')
 
 @get("/")
 @get('/valence')
@@ -36,3 +40,4 @@ def server_static(filepath):
     return static_file(filepath, root='style')
 
 run(host="0.0.0.0", port=80, server="waitress", debug=True)
+
